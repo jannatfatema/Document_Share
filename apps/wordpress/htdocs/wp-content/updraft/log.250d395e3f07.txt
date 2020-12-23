@@ -1,0 +1,92 @@
+0000.224 () Opened log file at time: Thu, 10 Dec 2020 08:32:39 +0000 on http://127.0.0.1/wordpress
+0000.224 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.41 WP: 5.5.3 PHP: 7.4.12 (apache2handler, Windows NT LAPTOP-EHO7280E 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.22 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.1M | 2M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.225 () Free space on disk containing Updraft's temporary directory: 310720.2 MB
+0000.075 () Opened log file at time: Thu, 10 Dec 2020 08:32:41 +0000 on http://127.0.0.1/wordpress
+0000.118 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.41 WP: 5.5.3 PHP: 7.4.12 (apache2handler, Windows NT LAPTOP-EHO7280E 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.22 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 2.6M | 2M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.118 () Free space on disk containing Updraft's temporary directory: 310705 MB
+0000.119 () Ensuring WP_Filesystem is setup for a restore
+0000.121 () WP_Filesystem is setup and ready for a restore
+0000.252 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.324 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.419 () Entity: db
+0000.419 () restore_backup(backup_file=backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-db.gz, type=db, info=a:0:{}, last_one=)
+0000.420 () Unpacking backup... (backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-db.gz, 0.1 Mb)
+0000.422 () Database successfully unpacked
+0000.422 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.432 () Using direct MySQL access; value of use_mysqli is: 1
+0000.497 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0002.519 () Max packet size: 32 MB
+0002.519 () Entering maintenance mode
+0002.519 () Enabling Maintenance mode&#8230;
+0002.646 () is_stored_routine_supported(): An error occurred while attempting to check the support of stored routines creation (You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable) - CREATE FUNCTION updraft_test_stored_routine() RETURNS tinyint(1) DETERMINISTIC READS SQL DATA RETURN true)
+0002.646 () Backup of: http://127.0.0.1/wordpress
+0002.648 () Content URL: http://127.0.0.1/wordpress/wp-content
+0002.648 () Uploads URL: http://127.0.0.1/wordpress/wp-content/uploads
+0002.648 () Old table prefix: wp_
+0002.648 () Site information: multisite=0
+0002.648 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0002.654 () New table prefix: wp_
+0003.041 () Processing table (InnoDB): wp_options
+0005.888 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0006.157 () Processing table (InnoDB): wp_users
+0008.743 () Processing table (InnoDB): wp_usermeta
+0010.342 () Processing table (InnoDB): wp_commentmeta
+0011.509 () Processing table (InnoDB): wp_comments
+0012.809 () Processing table (InnoDB): wp_links
+0014.087 () Processing table (InnoDB): wp_postmeta
+0015.564 () Processing table (InnoDB): wp_posts
+0016.976 () Processing table (InnoDB): wp_term_relationships
+0018.131 () Processing table (InnoDB): wp_term_taxonomy
+0019.520 () Processing table (InnoDB): wp_termmeta
+0020.408 () Processing table (InnoDB): wp_terms
+0021.186 () Unlocking database and leaving maintenance mode
+0021.186 () Disabling Maintenance mode&#8230;
+0021.186 () Finished: lines processed: 42 in 20.59 seconds
+0021.187 () Cleaning up rubbish...
+0021.374 () Entity: plugins
+0021.374 () restore_backup(backup_file=backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:63:"D:\wordpress\wordpress\apps\wordpress\htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0021.375 () Unpacking backup... (backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-plugins.zip, 22.3 MB)
+0021.377 () Unzipping backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-plugins.zip to D:/wordpress/wordpress/apps/wordpress/htdocs/wp-content/upgrade/185346c1/ using UpdraftPlus_ZipArchive, starting index 0
+0022.730 () Unzip progress: 1002 out of 5831 files (1.9 MB, plugins/all-in-one-seo-pack/inc/aiosp_common.php)
+0025.868 () Unzip progress: 2003 out of 5831 files (16.8 MB, plugins/jetpack/class.jetpack-data.php)
+0029.707 () Unzip progress: 3004 out of 5831 files (24 MB, plugins/jetpack/modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget.php)
+0033.659 () Unzip progress: 4005 out of 5831 files (57.2 MB, plugins/updraftplus/methods/cloudfiles.php)
+0038.052 () Unzip progress: 5006 out of 5831 files (62.4 MB, plugins/wp-mail-smtp/assets/images/providers/pepipost.png)
+0040.279 () Unzip progress: 5831 out of 5831 files (69.4 MB, plugins/wp-mail-smtp/wp_mail_smtp.php)
+0040.322 () Moving old data: filesystem method / updraft_dir is potentially possible
+0040.322 () Moving old data: can potentially use wp_filesystem method / -old
+0040.323 () Moving old data out of the way...
+0041.763 () Top-level entities being moved: akismet, all-in-one-seo-pack, all-in-one-wp-migration, amp, google-analytics-for-wordpress, hello.php, index.php, jetpack, simple-tags, updraftplus, wp-mail-smtp
+0041.779 () Moving unpacked backup into place...
+0042.357 () Top-level entities being moved: akismet, all-in-one-seo-pack, all-in-one-wp-migration, amp, google-analytics-for-wordpress, hello.php, index.php, jetpack, simple-tags, updraftplus, wp-mail-smtp
+0042.369 () Cleaning up rubbish...
+0042.488 () Entity: themes
+0042.488 () restore_backup(backup_file=backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-themes.zip, type=themes, info=a:2:{s:4:"path";s:62:"D:\wordpress\wordpress\apps\wordpress\htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0042.491 () Unpacking backup... (backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-themes.zip, 2.1 MB)
+0042.493 () Unzipping backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-themes.zip to D:/wordpress/wordpress/apps/wordpress/htdocs/wp-content/upgrade/5f805e6a/ using UpdraftPlus_ZipArchive, starting index 0
+0043.298 () Unzip progress: 259 out of 259 files (3.8 MB, themes/twentytwenty/templates/template-full-width.php)
+0043.299 () Moving old data: filesystem method / updraft_dir is potentially possible
+0043.299 () Moving old data: can potentially use wp_filesystem method / -old
+0043.299 () Moving old data out of the way...
+0043.331 () Top-level entities being moved: index.php, twentynineteen, twentyseventeen, twentytwenty
+0043.342 () Moving unpacked backup into place...
+0043.364 () Top-level entities being moved: index.php, twentynineteen, twentyseventeen, twentytwenty
+0043.366 () Cleaning up rubbish...
+0043.581 () Entity: uploads
+0043.581 () restore_backup(backup_file=backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:63:"D:\wordpress\wordpress\apps\wordpress\htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0043.583 () Unpacking backup... (backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-uploads.zip, 0.1 MB)
+0043.585 () Unzipping backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-uploads.zip to D:/wordpress/wordpress/apps/wordpress/htdocs/wp-content/upgrade/45416bd4/ using UpdraftPlus_ZipArchive, starting index 0
+0043.943 () Unzip progress: 7 out of 7 files (108.4 KB, uploads/2020/12/2020-landscape-1.png)
+0043.946 () Moving old data: filesystem method / updraft_dir is potentially possible
+0043.947 () Moving old data: can potentially use wp_filesystem method / -old
+0043.947 () Moving old data out of the way...
+0043.953 () Moving unpacked backup into place...
+0043.960 () Cleaning up rubbish...
+0044.086 () Entity: others
+0044.086 () restore_backup(backup_file=backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-others.zip, type=others, info=a:2:{s:4:"path";s:55:"D:\wordpress\wordpress\apps\wordpress\htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0044.087 () Unpacking backup... (backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-others.zip, 0 MB)
+0044.088 () Unzipping backup_2020-12-10-0819_admin039s_Blog_8f67e3e46818-others.zip to D:/wordpress/wordpress/apps/wordpress/htdocs/wp-content/upgrade/65bf9cc9/ using UpdraftPlus_ZipArchive, starting index 0
+0044.154 () Unzip progress: 4 out of 4 files (28 B, index.php)
+0044.156 () Cleaning up rubbish...
+0045.205 () Restore successful!
+0045.205 () Restore successful
